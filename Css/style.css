@@ -1,6 +1,14 @@
+:root {
+    margin: 0;
+    padding: 0;
+}
+
+
 
 body{
     background-color: black;
+    
+    
 }
 
 .bar-menu{
@@ -9,6 +17,8 @@ body{
     display: inline-flex;
     width: 100%;
     height: 125px;
+    position: sticky;
+    
 }
 
 .text_menu{
@@ -16,7 +26,7 @@ body{
     margin-left: 120px;
     margin-top: 54px;
     text-decoration: underline;
-   
+    
 }
 
 #logo-partI{
@@ -35,15 +45,19 @@ body{
 
 #logo-partII{
     margin-top: 34px;
-    width: 50%;
-    height: 100px;
+    width:50%;
+    height: 130px;
     margin-right: 220px;
     margin-left: 150px;
+    
 }
 
 #luz-logo{
-    margin-top: -130px;
-    animation: aparicion 2.2s infinite;
+    margin-top: -150px;
+    margin-left: -50px;
+    animation: aparicion 2.2s 3;
+    margin-bottom: -120px;
+    
 }
 
 h1{ 
@@ -59,15 +73,239 @@ a{
     color: black;
 }
 
+.slice-img{
+    height: 500px;
+    margin: 0 auto;
+    
+}
 
+#img-principal{
+    position: relative;
+    margin-top: 0%;
+}
+
+#show-image{
+    height: 700px;
+    width: 98%;
+    margin-left: 15px;
+    opacity: 0.3;
+    
+}
+
+.image-slice{
+    background-size: contain;
+    width: 100%;
+    height: 600px;
+    transition: all 1s;
+    
+    
+}
+
+.image-slice:hover{
+    opacity: 30%;
+}
+
+#text-img{
+    position: absolute;
+
+
+}
+
+
+
+
+#service{
+    margin-top: 200px;
+    align-items: center;
+    background-size: contain;
+ 
+}
+
+
+#bloque-servicio{
+    text-align: center;
+    display: flex;
+    height: 400px;
+    margin: 0 auto;
+}
+
+#descripcion-imagen{
+    display: flex;
+    margin-top: -90px;
+    margin-left: 89px;
+    margin-bottom: 600px;
+
+}
+
+
+
+.bq-service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    margin-right: -23px;
+    text-align: center;
+    background-size: contain;
+    width: 370px;
+    height: 300px;
+    margin-top: 10px;
+    
+    transition: all 1s ;
+}
+
+
+
+
+h2{
+    color: gold;
+    flex-grow: 1;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.bq-service:hover{
+    translate: 0px 50px;
+
+
+}
+
+#title-nosotros{
+    text-align: left;
+}
+
+p{
+    color: white;
+    font-size: 45px;
+    justify-self: left;
+    width: 60%;
+    
+    
+}
+
+#text-herr{
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+#CEO{
+
+    width: 550px;
+    position: absolute;
+    top: 2400px;
+    left: 900px;
+    transition: all 2s;
+    
+  
+}
+
+#Descr-CEO{
+    position: absolute;
+    top: 2350px;
+    left: 1020px;
+    color: white;
+    font-size: 32px;
+}
+
+
+#CEO:hover{
+   translate: 0px -40px;
+   filter: hue-rotate(90deg);
+}
+
+#Nosotros{
+    height: 740px;
+}
+
+.archivos{
+    color: gold;
+    font-size: 24px;
+    margin-left: 100px;
+
+}
+
+#Herramientas{
+    margin-bottom: 300px;
+}
+
+#text-herr{
+    margin-bottom: 120px;
+}
+
+#img-excel{
+    width: 400px;
+    height: 200px;
+    margin-left: 23px;
+    animation: aparicion 3.2s 2;
+}
+
+
+.redes{
+    text-align: center;
+}
+
+.img-redes{
+    width: 100px;
+    text-align: center;
+    transition: all 4s;
+    margin-right: 34px;
+}
+
+.img-redes:hover{
+    transform: scale(170%);
+
+    
+}
+
+
+#logo-comp {
+    width: 1000px;
+    filter: hue-rotate(89deg);
+    background-color: black;
+    transition: all 2s;
+}
+
+#logo-comp:hover{
+    background-color: darkolivegreen;
+    filter: hue-rotate(-15deg);
+    transform: scale(80%) ;
+    
+       
+}
+
+#Mensaje_Final{
+    position: absolute;
+    bottom: -3700px;
+    left: 300px;
+    color: black;
+    
+    
+}
+
+
+#Contactenos{
+    text-align: center;
+}
+
+#year{
+    margin-left: 280px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+}
 
 @keyframes aparicion {
    0%{
     transform: scale(0%);
+    
    }
 
    100%{
     transform: scale(100%);
+    
+    
    }
 
+   
 }
+
+
