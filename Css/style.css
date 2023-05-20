@@ -75,6 +75,9 @@ a{
     color: black;
 }
 
+
+
+
 /* VISOR DE IMAGENES */
 
 .slice-img{
@@ -107,15 +110,17 @@ a{
 
 #text-img{
     position: absolute;
+    font-size: 20px;
 
 }
 
 
 .link{
-    color: blue;
+    color: gold;
     position: relative;
     font-size: 26px;
-
+    transition: all 2s;
+    
 }
 
 
@@ -183,8 +188,10 @@ a{
     width: 100%;
     transition: all 2s;
     animation: aparicion 2s;
-    margin-right: 30px;
+    padding-left: -100px;
     color: white;
+    
+    
 }
 
 /* NOSOTROS */
@@ -230,7 +237,7 @@ p{
 
 #CEO:hover{
    translate: 0px -40px;
-   filter: hue-rotate(-180deg);
+   filter: hue-rotate(89deg);
 }
 
 #Nosotros{
@@ -376,10 +383,15 @@ p{
     
    }
 
-   #text-img{
-    font-size: 20px;
-   }
+   .link{
+    color: gold;
+    position: relative;
+    font-size: 10px;
+    transition: all 2s;
+    
+}
 
+  
    #service{
     
     margin-bottom: 100px;
@@ -425,7 +437,7 @@ p{
 
    #Descr-CEO{
     
-    top: 3500px;
+    top: 3550px;
     left:30px;
     
 }

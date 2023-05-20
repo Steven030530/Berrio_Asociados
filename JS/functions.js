@@ -6,7 +6,9 @@ let nosotros = document.querySelector("#text-nosotros");
 let test = document.querySelectorAll(".bq-service");
 let texto = document.querySelector("#texto-servicios");
 let ceo = document.querySelector("#CEO");
-
+let logo = document.querySelector("#logo-partI");
+let cotenedor_menu = document.querySelector(".menu-simply");
+let text_simply = document.querySelectorAll(".text_simply");
 
 
 test[0].addEventListener("mouseover",function(event){
@@ -53,7 +55,7 @@ nosotros.innerHTML = "Somos una empresa de consultoria con más de 8 años de ex
 ceo.addEventListener("mouseover",function(event){
     nosotros.style.transition = "all 2s"
     nosotros.style.color = "gold";
-    nosotros.style.filter = "hue-rotate(-180deg)";
+    nosotros.style.filter = "hue-rotate(89deg)";
 })
 
 ceo.addEventListener("mouseout",function(event){
@@ -63,17 +65,23 @@ ceo.addEventListener("mouseout",function(event){
 
 
 
+
+
+
+
 function showSlides(){
 
-    let text = ["INCP abre al publico el debate sobre las NIIF 9 y 7",
-                "Analitica de Datos con Power BI:<br> Explora todo tu negocio con herramientas de inteligencia empresarial y lleva tu negocio a otro nivel",
-                "Reforma Laboral",
-                "Python y las ventajas de la data"]
+    let text = ["La Dian se pronuncia sobre las declaraciones Ineficaces",
+                "Enterate de las ultimas Noticias en Analisis de Datos e Inteligencia de Negocios",
+                "Reforma Laboral en Colombia, enterate de cada modificación al codigo laboral",
+                "Python y la Competitividad en el Mundo Laboral"]
 
     let parrafo = document.getElementById("text-img");
     let i;
     let slides = document.getElementsByClassName("image-slice");
     let link = document.querySelector(".link");
+    let x = window.matchMedia("(max-width: 1000px)");
+    
     for (i=0; i < slides.length;i++){
         slides[i].style.display = "none";
     }
@@ -88,22 +96,72 @@ function showSlides(){
         parrafo.innerHTML = text[slideIndex-1]
         parrafo.style.color = "white";
         parrafo.style.fontSize = "32px"
-        parrafo.style.right = "230px"
-        link.setAttribute("href","https://www.google.com")
+        link.setAttribute("href","https://incp.org.co/dian-se-pronuncio-sobre-las-declaraciones-de-retencion-en-la-fuente-ineficaces/")
         link.setAttribute("target","_blank")      
-        link.innerHTML = "Realiza tus comentarios sobre las NIIF" 
+        link.innerHTML = "Ver articulo Declaraciones Ineficaces"
+        link.style.fontSize = "45px"
+        link.style.right = "-734px"
+        if(x.matches){
+            parrafo.style.fontSize = "16px"
+            link.style.fontSize="20px"
+            link.style.right = "-50px"
+        }
+        
     }
     
     if(slideIndex == 2){
         parrafo.innerHTML = text[slideIndex-1]
         parrafo.style.color = "white";
-        parrafo.style.fontSize = "32px"
-        parrafo.style.right = "230px"
-        link.setAttribute("href","https://www.facebook.com")      
-        link.innerHTML = "Ingresa a Facebook" 
+        parrafo.style.fontSize = "30px"
+        parrafo.style.left = "50px"
+        link.setAttribute("href","https://www.larepublica.co/analisis-de-datos")      
+        link.innerHTML = "Noticias en Inteligencia de Negocios" 
+        link.style.fontSize = "45px"
+        link.style.right = "-234px"
+
+        if(x.matches){
+            parrafo.style.fontSize = "16px"
+            link.style.fontSize="20px"
+            link.style.right = "-50px"
+        }
+        
     }
 
 
+    if(slideIndex == 3){
+        parrafo.innerHTML = text[slideIndex-1]
+        parrafo.style.color = "white";
+        parrafo.style.fontSize = "50px"
+        parrafo.style.left = "50px"
+        link.setAttribute("href","https://www.portafolio.co/economia/consulte-aqui-el-texto-completo-de-la-reforma-laboral-580058")      
+        link.innerHTML = "Consulta el Texto de la Reforma Laboral" 
+        link.style.fontSize = "45px"
+        link.style.right = "-234px"
+
+        if(x.matches){
+            parrafo.style.fontSize = "16px"
+            link.style.fontSize="20px"
+            link.style.right = "-50px"
+        }
+        
+    }
+
+    if(slideIndex == 4){
+        parrafo.innerHTML = text[slideIndex-1]
+        parrafo.style.color = "white";
+        parrafo.style.fontSize = "50px"
+        parrafo.style.left = "50px"
+        link.setAttribute("href","https://cio.com.mx/python-un-lenguaje-esencial-para-la-competitividad-laboral/")      
+        link.innerHTML = "Aprende Python y sus Ventajas" 
+        link.style.fontSize = "45px"
+        link.style.right = "-234px"
+
+        if(x.matches){
+            link.style.fontSize="20px"
+            link.style.right = "-50px"
+        }
+        
+    }
 
     else{
         parrafo.innerHTML = text[slideIndex-1]
