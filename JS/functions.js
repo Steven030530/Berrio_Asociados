@@ -72,7 +72,7 @@ ceo.addEventListener("mouseout",function(event){
 function showSlides(){
 
     let text = ["La Dian se pronuncia sobre las declaraciones Ineficaces",
-                "Enterate de las ultimas Noticias en Analisis de Datos e Inteligencia de Negocios",
+                "Noticias en Analisis de Datos e Inteligencia de Negocios",
                 "Reforma Laboral en Colombia, enterate de cada modificación al codigo laboral",
                 "Python y la Competitividad en el Mundo Laboral"]
 
