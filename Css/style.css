@@ -479,20 +479,20 @@ p{
 }
 
 
-@media (min-width:350px) and (max-width:850px){
+@media (min-width:250px) and (max-width:850px){
 
     .bar-menu{
-        width: 590px;
+        width: 260%;
        
     }
 
     .image-slice{
-        width: 590px;
+        width: 260%;
         
     }
 
     .logo-name{
-        width: 590px;
+        width: 260%;
     }
 
     #luz-logo{
@@ -501,7 +501,7 @@ p{
     }
 
     #descripcion-imagen{
-        margin-right: -90px;
+        margin-right: -200px;
         height: 1000px;
         
         
@@ -518,11 +518,11 @@ p{
    }
 
     #Descr-CEO{
-        top: 3200px;
+        top: 3400px;
     }
 
     #CEO{
-        top: 3250px;
+        top: 3450px;
         
     }
 
@@ -538,6 +538,7 @@ p{
     .img-redes{
         
         margin-right: -20px;
+        
     }
 
     .redes{

@@ -73,7 +73,7 @@ function showSlides(){
 
     let text = ["La Dian se pronuncia sobre las declaraciones Ineficaces",
                 "Noticias en Analisis de Datos e Inteligencia de Negocios",
-                "Reforma Laboral en Colombia, enterate de cada modificación al codigo laboral",
+                "Reforma Laboral en Colombia, enterate de los posibles cambios",
                 "Python y la Competitividad en el Mundo Laboral"]
 
     let parrafo = document.getElementById("text-img");
@@ -96,7 +96,7 @@ function showSlides(){
         parrafo.innerHTML = text[slideIndex-1]
         parrafo.style.color = "white";
         parrafo.style.fontSize = "32px"
-        link.setAttribute("href","https://incp.org.co/dian-se-pronuncio-sobre-las-declaraciones-de-retencion-en-la-fuente-ineficaces/")
+        link.setAttribute("href","https://incp.org.co/wp-content/uploads/2023/05/Concepto-100202208-049-de-2023-DIAN.pdf")
         link.setAttribute("target","_blank")      
         link.innerHTML = "Ver articulo Declaraciones Ineficaces"
         link.style.fontSize = "45px"
@@ -133,8 +133,8 @@ function showSlides(){
         parrafo.style.color = "white";
         parrafo.style.fontSize = "50px"
         parrafo.style.left = "50px"
-        link.setAttribute("href","https://www.portafolio.co/economia/consulte-aqui-el-texto-completo-de-la-reforma-laboral-580058")      
-        link.innerHTML = "Consulta el Texto de la Reforma Laboral" 
+        link.setAttribute("href","https://www.portafolio.co/uploads/files/2023/03/16/P.L.367-2023C%20-REFORMA%20LABORAL-.pdf")      
+        link.innerHTML = "Consulta el Texto del Proyecto a la Reforma Laboral" 
         link.style.fontSize = "45px"
         link.style.right = "-234px"
 
