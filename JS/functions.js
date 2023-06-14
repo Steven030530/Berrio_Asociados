@@ -13,7 +13,7 @@ let text_simply = document.querySelectorAll(".text_simply");
 
 test[0].addEventListener("mouseover",function(event){
     texto.style.display = "block"
-    texto.innerHTML = "Tu informacion contable y financiera al dia, te ofrecemos servicios como:<br><br> <li>Registro de Información Contable</li> <li>Informes Financieros</li> <li> Obligaciones Fiscales</li> <li>Asesoria NIIF</li>"
+    texto.innerHTML = "Tu información contable y financiera al día, te ofrecemos servicios como:<br><br> <li>Registro de Información Contable</li> <li>Informes Financieros</li> <li> Obligaciones Fiscales</li> <li>Asesoría NIIF</li>"
 })
 
 test[0].addEventListener("mouseout",function(event){
@@ -22,7 +22,7 @@ test[0].addEventListener("mouseout",function(event){
 
 test[1].addEventListener("mouseover",function(event){
     texto.style.display = "block"
-    texto.innerHTML = "No dejes que te sancione la Administracion de Impuestos, te ofrecemos servicios como:<br><br> <li>Declaraciones Tributarias (Impuesto de Renta, IVA, Retenciones en la Fuente, Industria y Comercio, etc.)</li> <li>Presentacion de Información Exogena</li> <li> Planeacion Tributaria</li> <li>Devolucion de Saldos a Favor</li>"
+    texto.innerHTML = "No dejes que te sancione la Administración de Impuestos, te ofrecemos servicios como:<br><br> <li>Declaraciones Tributarias (Impuesto de Renta, IVA, Retenciones en la Fuente, Industria y Comercio, etc.)</li> <li>Presentación de Información Exógena</li> <li> Planeación Tributaria</li> <li>Devolución de Saldos a Favor</li>"
 })
 
 test[1].addEventListener("mouseout",function(event){
@@ -32,7 +32,7 @@ test[1].addEventListener("mouseout",function(event){
 
 test[2].addEventListener("mouseover",function(event){
     texto.style.display = "block"
-    texto.innerHTML = "Lleva tu negocio a otro nivel con herramientas de inteligencia artificial y analitica de datos, te ofrecemos servicios como:<br><br> <li>Creacion de tableros de control con Power BI</li> <li>Automatizacion de Procesos</li> <li>Potencializacion de Negocios con Data</li> <li>Capacitación en herramientas Business Inteligence</li> <li>Creacion Macros en Excel</li> <li>Capacitaciones en Excel</li>"
+    texto.innerHTML = "Lleva tu negocio a otro nivel con herramientas de inteligencia artificial y analítica de datos, te ofrecemos servicios como:<br><br> <li>Creación de tableros de control con Power BI</li> <li>Automatización de Procesos</li> <li>Potencialización de Negocios con Data</li> <li>Capacitación en herramientas Business Intelligence</li> <li>Creación Macros en Excel</li> <li>Capacitaciones en Excel</li>"
 })
 
 test[2].addEventListener("mouseout",function(event){
@@ -42,7 +42,7 @@ test[2].addEventListener("mouseout",function(event){
 
 test[3].addEventListener("mouseover",function(event){
     texto.style.display = "block"
-    texto.innerHTML = "No pierdas alcance de tus negocios por no estar en el Internet, te ofrecemos servicios como:<br><br> <li>Creacion Paginas Web desde Cero</li> <li>Desarrollos Front-End ( Diseño y Estilos de la Pagina Web)</li> <li>Desarrollos Backend (Funcionalidades de la pagina)</li>"
+    texto.innerHTML = "No pierdas alcance de tus negocios por no estar en el Internet, te ofrecemos servicios como:<br><br> <li>Creación Paginas Web desde Cero</li> <li>Desarrollos Front-End ( Diseño y Estilos de la Pagina Web)</li> <li>Desarrollos Backend (Funcionalidades de la pagina)</li>"
 })
 
 test[3].addEventListener("mouseout",function(event){
@@ -50,7 +50,7 @@ test[3].addEventListener("mouseout",function(event){
 })
 
 
-nosotros.innerHTML = "Somos una empresa de consultoria con más de 8 años de experiencia en los diferentes sectores de la economía, estamos comprometidos con el desarrollo y crecimiento de los negocios utilizando herramientas tecnológicas para disminuir las cargas operativas y automatizar procesos contables, tributarios, análisis de datos, desarrollos personalizados en excel y plataformas web. "
+nosotros.innerHTML = "Somos una empresa de consultoría con más de 8 años de experiencia en los diferentes sectores de la economía, estamos comprometidos con el desarrollo y crecimiento de los negocios utilizando herramientas tecnológicas para disminuir las cargas operativas y automatizar procesos contables, tributarios, análisis de datos, desarrollos personalizados en Excel y plataformas web. "
 
 ceo.addEventListener("mouseover",function(event){
     nosotros.style.transition = "all 2s"

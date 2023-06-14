@@ -470,7 +470,12 @@ p{
 
 @media (min-width:1000px) and (max-width:1400px){
     .bq-service{
-        margin-right: -130px;
+        margin-right: -60px;
+    }
+
+
+    #Herramientas{
+        margin-top: 40px;
     }
 
     #year{
@@ -534,7 +539,7 @@ p{
     .archivos{
         font-size: 15px;
     }
-
+    
     .img-redes{
         
         margin-right: -20px;
