@@ -74,7 +74,8 @@ function showSlides(){
     let text = ["La Dian se pronuncia sobre las declaraciones Ineficaces",
                 "Noticias en Analisis de Datos e Inteligencia de Negocios",
                 "Reforma Laboral en Colombia, enterate de los posibles cambios",
-                "Python y la Competitividad en el Mundo Laboral"]
+                "Python y la Competitividad en el Mundo Laboral",
+                "Conoce la reforma contable tramitada por CTCP"]
 
     let parrafo = document.getElementById("text-img");
     let i;
@@ -146,6 +147,24 @@ function showSlides(){
         
     }
 
+    if(slideIndex == 5){
+        parrafo.innerHTML = text[slideIndex-1]
+        parrafo.style.color = "white";
+        parrafo.style.fontSize = "50px"
+        parrafo.style.left = "50px"
+        link.setAttribute("href","/Static_files/Proyecto-de-reforma-a-la-profesion-contable-CTCP.pdf")      
+        link.innerHTML = "Descarga el texto completo de la Reforma Contable" 
+        link.style.fontSize = "45px"
+        link.style.right = "-234px"
+
+        if(x.matches){
+            link.style.fontSize="20px"
+            link.style.right = "-50px"
+        }
+        
+    }
+
+
     if(slideIndex == 4){
         parrafo.innerHTML = text[slideIndex-1]
         parrafo.style.color = "white";
@@ -162,6 +181,8 @@ function showSlides(){
         }
         
     }
+
+
 
     else{
         parrafo.innerHTML = text[slideIndex-1]
