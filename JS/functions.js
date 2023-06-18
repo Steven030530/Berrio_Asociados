@@ -97,6 +97,7 @@ function showSlides(){
         parrafo.innerHTML = text[slideIndex-1]
         parrafo.style.color = "white";
         parrafo.style.fontSize = "32px"
+        parrafo.style.margin = "0px 50px -120px"
         link.setAttribute("href","https://incp.org.co/wp-content/uploads/2023/05/Concepto-100202208-049-de-2023-DIAN.pdf")
         link.setAttribute("target","_blank")      
         link.innerHTML = "Ver articulo Declaraciones Ineficaces"

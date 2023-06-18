@@ -6,7 +6,7 @@
 
 
 body{
-    background-color: black;
+    background: linear-gradient(90deg, rgb(3, 0, 46) 0%, rgb(6, 6, 34) 35%, rgb(3, 0, 0) 100%);
     
     
 }
@@ -14,8 +14,7 @@ body{
 /* BARRA MENU */
 
 .bar-menu{
-    background: rgb(255,255,255);
-    background: linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(90deg, rgb(201, 201, 200) 0%, rgba(0,0,0,1) 100%);
     display: inline-flex;
     width: 100%;
     height: 125px;
@@ -32,9 +31,10 @@ body{
 }
 
 #logo-partI{
-   width: 100px;
+   width: 130px;
    height: 100px;
-   margin: 10px 10px 10px 100px;
+   margin: 10px 10px 10px 40px;
+   box-shadow: 10px 10px 10px rgb(0, 0, 0);
 }
 
 .logo-name{
@@ -42,6 +42,7 @@ body{
     width: 100%;
     text-align: center;
     height: 200px;
+    margin-bottom: 100px;
 
 }
 
@@ -57,8 +58,8 @@ body{
 #luz-logo{
     margin-top: -150px;
     margin-left: -50px;
-    animation: aparicion 2.2s infinite;
-    margin-bottom: -120px;
+    animation: aparicion 2.2s 3;
+    margin-bottom: -100px;
     
 }
 
@@ -81,10 +82,13 @@ a{
 /* VISOR DE IMAGENES */
 
 .slice-img{
-    height: 500px;
-    margin: 0 auto;
+    height: 100%;
+    margin: 0 auto 40px;
+    width: 98%;
     
 }
+
+
 
 #img-principal{
     position: relative;
@@ -104,12 +108,13 @@ a{
     width: 100%;
     height: 600px;
     transition: all 2s;
-    
+    border-radius: 33px;
+    box-shadow: 13px 13px white;
     
 }
 
 #text-img{
-    position: absolute;
+    position: relative;
     font-size: 20px;
 
 }
@@ -135,7 +140,10 @@ a{
 }
 
 
+
+
 #bloque-servicio{
+   
     text-align: center;
     display: flex;
     height: 400px;
@@ -147,8 +155,9 @@ a{
 
 #descripcion-imagen{
     display: flex;
-    margin-top: -90px;
+    margin-top: -100px;
     margin-left: 89px;
+    margin-right: -40px;
     margin-bottom: 100px;
     
 }
@@ -159,10 +168,10 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;    
-    margin-right: 20px;
+    margin-right: 10px;
     text-align: center;
     background-size: contain;
-    width: 350px;
+    width: 380px;
     height: 300px;
     margin-top: 10px;
     
@@ -191,8 +200,8 @@ a{
     width: 100%;
     transition: all 2s;
     animation: aparicion 2s;
-    padding-left: -100px;
     color: white;
+    margin-left: 100px;
     
     
 }
@@ -208,6 +217,7 @@ p{
     font-size: 45px;
     justify-self: left;
     width: 60%;
+
     
     
 }
@@ -221,22 +231,19 @@ p{
 #CEO{
 
     width: 550px;
-    position: absolute;
-    top: 2200px;
-    left: 870px;
     transition: all 2s;
-    
+    margin-left: 1000px;
+    margin-top: -700px;
     
   
 }
 
 #Descr-CEO{
-    position: absolute;
-    top: 2150px;
-    left: 1000px;
+    
     color: white;
     font-size: 32px;
-    
+    margin-left: 1100px;
+    margin-top: -350px;
 }
 
 
@@ -246,21 +253,32 @@ p{
 }
 
 #Nosotros{
-    height: 740px;
+    height: 990px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    
+    
+    
 }
 
 
 /* HERRAMIENTAS */
 
 .archivos{
+    text-align: center;
     color: gold;
     font-size: 24px;
-    margin-left: 100px;
+    margin-left: 50px;
 
 }
 
+
+
 #Herramientas{
+    text-align: center;
     margin-bottom: 300px;
+    
 }
 
 #text-herr{
@@ -297,14 +315,13 @@ p{
 
 #logo-comp {
     width: 1000px;
-    filter: hue-rotate(89deg);
-    background-color: black;
+    background: linear-gradient(180deg, rgb(3, 0, 46) 0%, rgb(6, 6, 34) 35%, rgb(3, 0, 0) 100%);
     transition: all 2s;
+    border: 2px solid;
 }
 
 #logo-comp:hover{
-    background-color: darkolivegreen;
-    filter: hue-rotate(-15deg);
+    background: linear-gradient(90deg, rgb(36, 32, 79) 0%, rgb(23, 23, 52) 35%, rgb(73, 71, 71) 100%);
     transform: scale(80%) ;
     
        
@@ -487,29 +504,36 @@ p{
 @media (min-width:250px) and (max-width:850px){
 
     .bar-menu{
-        width: 260%;
+        width: 100%;
        
     }
 
     .image-slice{
-        width: 260%;
+        width: 100%;
+        height: 500px;
+        border-radius: 0%;
         
     }
 
     .logo-name{
-        width: 260%;
+        width: 90%;
+
     }
 
     #luz-logo{
-        margin-left: -10px;
+        
+        margin-left: -100px;
         
     }
 
     #descripcion-imagen{
-        margin-right: -200px;
-        height: 1000px;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 140px;
+        background-color: red;
+        height: 0px;
         
-        
+
     }
 
     #texto-servicios{
