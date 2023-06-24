@@ -9,16 +9,18 @@ let ceo = document.querySelector("#CEO");
 let logo = document.querySelector("#logo-partI");
 let cotenedor_menu = document.querySelector(".menu-simply");
 let text_simply = document.querySelectorAll(".text_simply");
+let logo_complete = document.querySelector("#logo-comp");
+let contacto = document.querySelector("#Contactenos");
 
 
 test[0].addEventListener("mouseover",function(event){
     texto.style.display = "block"
     texto.innerHTML = "Tu información contable y financiera al día, te ofrecemos servicios como:<br><br> <li>Registro de Información Contable</li> <li>Informes Financieros</li> <li> Obligaciones Fiscales</li> <li>Asesoría NIIF</li>"
-})
+});
 
 test[0].addEventListener("mouseout",function(event){
     texto.style.display = "none"
-})
+});
 
 test[1].addEventListener("mouseover",function(event){
     texto.style.display = "block"
@@ -27,27 +29,27 @@ test[1].addEventListener("mouseover",function(event){
 
 test[1].addEventListener("mouseout",function(event){
     texto.style.display = "none"
-})
+});
 
 
 test[2].addEventListener("mouseover",function(event){
     texto.style.display = "block"
     texto.innerHTML = "Lleva tu negocio a otro nivel con herramientas de inteligencia artificial y analítica de datos, te ofrecemos servicios como:<br><br> <li>Creación de tableros de control con Power BI</li> <li>Automatización de Procesos</li> <li>Potencialización de Negocios con Data</li> <li>Capacitación en herramientas Business Intelligence</li> <li>Creación Macros en Excel</li> <li>Capacitaciones en Excel</li>"
-})
+});
 
 test[2].addEventListener("mouseout",function(event){
     texto.style.display = "none"
-})
+});
 
 
 test[3].addEventListener("mouseover",function(event){
     texto.style.display = "block"
     texto.innerHTML = "No pierdas alcance de tus negocios por no estar en el Internet, te ofrecemos servicios como:<br><br> <li>Creación Paginas Web desde Cero</li> <li>Desarrollos Front-End ( Diseño y Estilos de la Pagina Web)</li> <li>Desarrollos Backend (Funcionalidades de la pagina)</li>"
-})
+});
 
 test[3].addEventListener("mouseout",function(event){
     texto.style.display = "none"
-})
+});
 
 
 nosotros.innerHTML = "Somos una empresa de consultoría con más de 8 años de experiencia en los diferentes sectores de la economía, estamos comprometidos con el desarrollo y crecimiento de los negocios utilizando herramientas tecnológicas para disminuir las cargas operativas y automatizar procesos contables, tributarios, análisis de datos, desarrollos personalizados en Excel y plataformas web. "
@@ -56,13 +58,12 @@ ceo.addEventListener("mouseover",function(event){
     nosotros.style.transition = "all 2s"
     nosotros.style.color = "gold";
     nosotros.style.filter = "hue-rotate(89deg)";
-})
+});
 
 ceo.addEventListener("mouseout",function(event){
     nosotros.style.color = "white";
     
-})
-
+});
 
 
 
